@@ -6,6 +6,7 @@ import:t="%danetlibs/bloom/templates/bloom.template.blk"
 import:t="%danetlibs/blurred_ui/templates/blurred_ui.template.blk"
 import:t="game_logic.blk"
 import:t="checkpoints_fx.blk"
+import:t="lights.blk"
 
 replicating{
   replication {_tags:t="net";}
