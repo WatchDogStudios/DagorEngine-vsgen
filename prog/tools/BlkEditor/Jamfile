@@ -9,7 +9,7 @@ Target     = tools/BlkEditor.exe ;
 UseQt      = Widgets ;
 QtModules  = Core Gui Widgets ;
 AddQtRuntimeDeploy = tools/BlkEditor.exe ;
-include $(Root)/prog/_jBuild/windows/qt-inc.jam ;
+include $(Root)/prog/_jBuild/qt-inc.jam ;
 
 ConsoleExe = no ;
 
